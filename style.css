@@ -1,0 +1,92 @@
+body{
+    background: url("https://raw.githubusercontent.com/icsalgado/assets/master/.blackgroundbackguy.jpg") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+}
+
+.flex-container{
+    display: flex; /*itens dispostos na horizontal*/
+    align-items: center; /*itens alinhados pelo centro horizontal*/
+    
+}
+header{
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+
+header h1{
+    font-size: 45px;
+}
+
+
+header button{
+    border-radius: 30px;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    background-color: transparent;
+    direction: none;
+    color: white;
+    cursor: pointer;
+}
+
+header img{
+    width: 40px;
+    padding: 10px;
+}
+
+main{
+    background-color: rgba(97, 96, 96, 0.552);
+    border-radius: 20px;
+    margin: 0px 10%;
+}
+
+.mainImg{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.mainImg img{
+    border-radius: 55%;
+    width: 200px;
+    opacity: 0.8;
+    margin-top: -100px;
+    margin-bottom: 10%;
+}
+
+.data{
+    width: 33%;
+    text-align: left;
+}
+
+.projects{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+.xp{
+    max-width: 50%;
+}
+
+.xp h2{
+    text-align: center;
+}
+
+.employer{
+    margin: 10px;
+    background-color: rgba(97, 96, 96, 0.552);
+    border-radius: 20px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+footer{
+    bottom: 10px;
+    left: 45%;
+    text-align: center;
+}
