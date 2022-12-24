@@ -37,7 +37,7 @@ header img{
 main{
     background-color: rgba(97, 96, 96, 0.552);
     border-radius: 20px;
-    margin: 0px 10%;
+    margin: 0px 5%;
 }
 
 .mainImg{
@@ -63,22 +63,46 @@ main{
 }
 
 .info{
-    display: flex;
-    justify-content: space-between;
     margin: 0px 10px;
 }
+.info h2{
+    text-align: center;
+}
+
 .xp{
-    max-width: 50%;
+    display: flex;
+}
+.form{
+    display: flex;
 }
 
 .xp h2{
     text-align: center;
 }
 
-.employer{
+.box{
     margin: 10px;
     background-color: rgba(97, 96, 96, 0.552);
     border-radius: 20px;
+    width: 100%;
+}
+
+.box img{
+    max-width: 200px;
+    padding: 10px 0px 0px 10px;
+}
+.ihp{
+    width: 100px;
+}
+.box h3{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+.box p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 15;
 }
 
 .form h2{
